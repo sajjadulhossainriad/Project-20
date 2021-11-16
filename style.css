@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.fixedwidth{
+    width: 1350px;
+    margin: 40px auto;
+
+}
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+.headersection{
+    margin: 30px 0 50px 0;
+}
+.headersection ul{
+    text-align: center;
+}
+.headersection ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.headersection ul li a{
+    text-decoration: none;
+    background-color: #ddd;
+    color: #000;
+    padding: 15px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.headersection ul li a:hover{}
+.bannersection{
+    width: 1000px;
+    background-color: #ddd;
+    padding: 50px 100px;
+    margin: auto;
+    text-align: center;
+}
+.bannersection h1{
+    color: #a52a2a;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.bannersection h1 p{}
+.container{
+    margin-top: 30px;
+}
+.container .imgdiv{
+    width: 30%;
+    float: left;
+}
+.imgdiv img{
+    max-width: 100%;
+}
+.container .aboutme{
+    float: right;
+    width: 70%;
+}
+.aboutme h1{
+    background-color: #ddd;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0;
+}
+.innerabout{
+    padding: 10px 20px 10px 240px;
+}
+.aboutme h2{
+    color: #b23a2a;
+}
+.innerabout{
+    font-size: 20px;
+}
+.innerabout p{
+    font-size: 20px;
+}
+.servicehead{
+    text-align: center;
+    margin: 10px 0;
+}
+.servicehead h2{
+    background-color: #ddd;
+    color: #000;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.servicesec{
+    padding: 20px 10px;
+}
+.servicesec .service1{
+    float: left;
+    width: 30%;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    padding: 30px 10px;
+    margin-left: 10px;
+}
+.servicesec .service2{
+    float: left;
+    width: 30%;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    padding: 30px 10px;
+    margin-left: 25px;
+}
+.servicesec .service3{
+    float: left;
+    width: 30%;
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+    padding: 30px 10px;
+    margin-left: 25px;
+}
+.footersection{
+    padding: 10px 40px;
+    text-align: center;
+    background-color: #ddd;
+    color: black;
+    border-top: 3px solid black;
+}
+.footersection p{
+    font-size: 18px;
+}
